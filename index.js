@@ -1,7 +1,21 @@
 var inquirer = require("inquirer");
 var Word = require("./Word");
 
-var wordBank = ["Apple", "Orange", "Pear", "Banana"];
+
+var wordBank = ["aardvark", "alligator", "alpaca", "anteater",
+"antelope", "baboon", "badger", "beaver",
+"bluebird", "bobcat", "buffalo", "bulldog",
+"camel", "caterpillar", "cheetah", "chicken",
+"chihuahua", "chipmunk", "couger", "crocodile",
+"dolphin", "donkey", "elephant", "falcon",
+"ferret", "gazelle", "gorilla", "groundhog",
+"horse", "hummingbird", "iguana", "impala",
+"jaguar", "kangaroo", "leopard", "lion",
+"llama", "lobster", "manatee", "meerkat",
+"mockingbird", "muskrat", "narwhal", "octopus",
+"ostrich", "panda", "peacock", "rabbit", "raccoon",
+"rattlesnake", "rhinoceros", "scorpion", "squirrel",
+"tarantula", "walrus", "whale", "wolverine", "zebra"];
 var currentWord, guessesLeft;
 
 function initGame() {
